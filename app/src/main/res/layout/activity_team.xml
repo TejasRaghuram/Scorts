@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".Teamless">
+    tools:context=".Team">
 
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingHorizontal="30dp"
@@ -19,40 +19,27 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/teamless_title"
-            android:layout_width="match_parent"
+            android:id="@+id/team_title"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/extrabold"
-            android:text="You're not part of a team"
-            android:textAlignment="center"
+            android:text="Your Team"
             android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textSize="36sp" />
 
-        <EditText
-            android:id="@+id/teamless_name"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/user_input"
-            android:drawableLeft="@drawable/user_teamicon"
-            android:drawablePadding="10dp"
-            android:ems="10"
-            android:fontFamily="@font/regular"
-            android:hint="TEAM NAME"
-            android:inputType="textPersonName"
-            android:paddingHorizontal="10dp"
-            android:text=""
-            android:textColor="@color/black"
-            android:textColorHint="@color/gray" />
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_marginTop="20dp"></ListView>
 
         <Button
-            android:id="@+id/teamless_create"
+            android:id="@+id/team_recruit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@drawable/user_submit"
             android:fontFamily="@font/bold"
-            android:text="Create Team"
+            android:text="Recruit Player"
             app:backgroundTint="@color/main" />
     </LinearLayout>
 
