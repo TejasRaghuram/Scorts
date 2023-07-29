@@ -32,7 +32,12 @@
         <activity
             android:name=".MainActivity"
             android:exported="false" />
-
+        <activity
+            android:name=".Recruit"
+            android:exported="false" />
+        <activity
+            android:name=".Team"
+            android:exported="false" />
     </application>
 
 </manifest>
