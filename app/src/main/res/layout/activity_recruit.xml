@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".MainActivity">
+    tools:context=".Recruit">
 
 
     <LinearLayout
@@ -19,11 +19,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/team_title"
+            android:id="@+id/recruit_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/extrabold"
-            android:text="Your Team"
+            android:text="Recruit a Player"
             android:textColor="@color/black"
             android:textSize="36sp" />
 
@@ -33,13 +33,13 @@
             android:layout_marginTop="20dp"></ListView>
 
         <Button
-            android:id="@+id/team_recruit"
+            android:id="@+id/recruit_team"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@drawable/user_submit"
             android:fontFamily="@font/bold"
-            android:text="Recruit Player"
+            android:text="Your Team"
             app:backgroundTint="@color/main" />
     </LinearLayout>
 

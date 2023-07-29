@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/player_background"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/player_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bold"
+        android:text="Tejas Raghuram"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
+
+    <LinearLayout
+        android:id="@+id/player_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/player_runs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:text="Runs: 1354"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/player_wickets"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:text="Wickets: 67"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/player_team"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/regular"
+            android:text="No Team"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</LinearLayout>
